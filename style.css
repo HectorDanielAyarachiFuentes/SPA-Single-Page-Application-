@@ -1,0 +1,53 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #7FB3D5;
+    }
+    #content {
+      padding: 20px;
+      text-align: center;
+    }
+    .aviones {
+      background-color: #7FB3D5;
+    }
+    .tanques {
+      background-color: #D57878;
+    }
+    .barcos {
+      background-color: #5E9C83;
+    }
+    .helicopteros {
+      background-color: #FFB800;
+    }
+    .armas {
+      background-color: #444;
+      color: white;
+    }
+    .contenido-img {
+      max-width: 100%;
+      height: auto;
+    }

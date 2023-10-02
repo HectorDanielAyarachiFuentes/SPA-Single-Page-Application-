@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 /* Estilos para el encabezado */
 header {
   background-color: #333;
@@ -12,45 +11,37 @@ header {
   text-align: center;
   padding: 20px;
 }
-
 h1 {
   font-size: 36px;
 }
-
 nav {
   background-color: #007ACC;
   color: white;
   padding: 10px 0;
   text-align: center;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
-
 nav ul li {
   margin: 0 15px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   transition: color 0.3s;
 }
-
 nav ul li a:hover {
   color: #00A6E1;
 }
-
 #content {
   padding: 20px;
   text-align: center;
 }
-
 .seccion {
   border-radius: 8px;
   padding: 20px;
@@ -58,54 +49,42 @@ nav ul li a:hover {
   margin: 20px auto;
   max-width: 800px;
 }
-
 .aviones {
   background-color: #3498db;
 }
-
 .tanques {
   background-color: #4CAF50;
 }
-
 .barcos {
   background-color: #3c78e7;
 }
-
 .helicopteros {
   background-color: #F39C12;
 }
-
 .armas {
   background-color: #34495E;
   color: white;
 }
-
 /* Imágenes responsivas con proporciones */
 .contenido-img {
   max-width: 50%;
   height: auto;
 }
-
 footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
 }
-
-/* CSS base como lo tenías antes */
-
 /* Consulta de medios para pantallas pequeñas, como teléfonos móviles */
 @media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
     align-items: center;
   }
-
   nav ul li {
     margin: 10px 0;
   }
-
   .seccion {
     padding: 10px;
   }
@@ -115,14 +94,17 @@ footer {
   height: auto;
 }
 }
-
 /* Consulta de medios para tabletas */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   nav ul li {
     margin: 0 10px;
   }
-
   .seccion {
     max-width: 90%;
   }
+  /* Imágenes responsivas con proporciones */
+.contenido-img {
+  max-width: 100%;
+  height: auto;
+}
 }

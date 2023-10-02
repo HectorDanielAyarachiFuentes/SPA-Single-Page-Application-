@@ -13,6 +13,10 @@ fetch('datos.json')
         cargarPagina(pagina, data);
       });
     });
+
+// Almacena los datos del JSON en localStorage
+localStorage.setItem("explorador", JSON.stringify(data));
+
     // Cargar la página de aviones por defecto
     cargarPagina('aviones', data);
   })
@@ -31,3 +35,4 @@ function obtenerSeccionPorID(id, data) {
   // Obtener la sección correspondiente del JSON por su ID
   return data.find(seccion => seccion.id === id);
 }
+

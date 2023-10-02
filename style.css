@@ -5,6 +5,18 @@ body {
   padding: 0;
 }
 
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
 nav {
   background-color: #007ACC;
   color: white;
@@ -48,28 +60,29 @@ nav ul li a:hover {
 }
 
 .aviones {
-  background-color: #3498db; /* Azul */
+  background-color: #3498db;
 }
 
 .tanques {
-  background-color: #4CAF50; /* Verde Militar */
+  background-color: #4CAF50;
 }
 
 .barcos {
-  background-color: #3c78e7; /* Rojo */
+  background-color: #3c78e7;
 }
 
 .helicopteros {
-  background-color: #F39C12; /* Amarillo */
+  background-color: #F39C12;
 }
 
 .armas {
-  background-color: #34495E; /* Gris Azulado */
+  background-color: #34495E;
   color: white;
 }
 
+/* Imágenes responsivas con proporciones */
 .contenido-img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -96,6 +109,11 @@ footer {
   .seccion {
     padding: 10px;
   }
+  /* Imágenes responsivas con proporciones */
+.contenido-img {
+  max-width: 100%;
+  height: auto;
+}
 }
 
 /* Consulta de medios para tabletas */

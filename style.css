@@ -80,7 +80,9 @@ footer {
   padding: 10px 0;
 }
 
-/* Consulta de medios para pantallas más pequeñas */
+/* CSS base como lo tenías antes */
+
+/* Consulta de medios para pantallas pequeñas, como teléfonos móviles */
 @media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -93,5 +95,16 @@ footer {
 
   .seccion {
     padding: 10px;
+  }
+}
+
+/* Consulta de medios para tabletas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  .seccion {
+    max-width: 90%;
   }
 }

@@ -36,3 +36,10 @@ Supongamos que estamos desarrollando una aplicación de lista de tareas. Podemos
     "completed": false
   }
 ]
+```
+En resumen, una SPA es una forma moderna de desarrollar aplicaciones web que ofrece una experiencia de usuario más fluida al cargar y actualizar contenido de manera dinámica en una sola página sin recargarla por completo. El uso de archivos JSON para datos variables es común en SPAs y contribuye a la eficiencia y velocidad de estas aplicaciones.
+
+¡Gracias por leer este documento sobre Single Page Applications (SPA). 
+
+
+
